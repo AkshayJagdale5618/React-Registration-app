@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Container, Form, Modal, Table } from 'react-bootstrap';
-// import './Registration.css'
+import './Registration.css'
 
 function Registration() {
     const [show, setShow] = useState(true);
@@ -163,7 +163,7 @@ function Registration() {
 
     return (
         <>
-            <h1 className='text-center'>Registration Details </h1>
+            <h1 className='text-center text-red' >Registration Details </h1>
             <Button className='position-absolute bottom-0 end-0 mb-4 m-4 rounded-circle' 
                 onClick={addButton}>
                 <i className='fa fa-plus'></i>
